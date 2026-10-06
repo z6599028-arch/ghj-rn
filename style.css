@@ -1,0 +1,491 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bkimg {
+  background-image: url(/Group\ 327.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: antiquewhite;
+  height: 1000px;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.continer {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.nav__ul {
+  display: flex;
+  gap: 50px;
+}
+.nav__ul li:hover {
+  color: rgb(227, 91, 12);
+}
+.nav__ikon {
+  display: flex;
+  gap: 24px;
+}
+.mainh1 {
+  font-size: 50px;
+
+  margin: 0px 0px 20px;
+}
+.colmain {
+  color: rgb(240, 88, 12);
+}
+
+.main__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.nav__btn {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(85, 47, 121);
+  border-radius: 75px;
+  color: aliceblue;
+  border: none;
+}
+.nav__btn:hover {
+  background-color: rgb(243, 98, 15);
+}
+.logo__nav {
+  display: flex;
+}
+.miniii {
+  margin: 15px 0 0 5px;
+}
+.h5nav {
+  font-size: 15px;
+}
+.inp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 150px;
+  background-color: rgb(255, 255, 255);
+
+  width: 390px;
+  padding: 25px 42px;
+  outline: none;
+  border: none;
+}
+.ser {
+  margin: 0 0 0 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.main__btn {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(85, 47, 121);
+  border-radius: 75px;
+  color: aliceblue;
+  border: none;
+  margin: 0 0 0 90px;
+  position: absolute;
+  left: 46%;
+}
+.main__btn:hover {
+  background-color: rgb(243, 98, 15);
+}
+.sermain {
+  margin-top: 30px;
+  margin-left: -60px;
+}
+
+.miniser {
+  position: absolute;
+  left: 3%;
+  top: 29%;
+}
+.mainbigk {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  width: 1440px;
+  height: 275px;
+  background-color: rgb(68, 34, 100);
+  position: absolute;
+  left: 150px;
+  gap: 400px;
+  border-radius: 15px;
+}
+.minicjl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(104, 74, 133);
+  border-radius: 30px;
+  margin: 0 0 0 30px;
+}
+.infomain {
+  width: 190px;
+  height: 140px;
+  margin: 0 30px;
+  position: absolute;
+  top: 90px;
+  margin: 0 0 0 150px;
+}
+.hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 100px 0 0;
+}
+.imgminiher {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  gap: 350px;
+}
+.miniphtr {
+  width: 500px;
+  height: 100px;
+}
+.h1hero {
+  margin: 0 0 10px 70px;
+}
+.karder {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 200px 0 0 0;
+  position: relative;
+}
+.hero__kard {
+  width: 490px;
+  height: 430px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 5px 1px rgb(167, 166, 166);
+  padding: 15px;
+  border-radius: 30px;
+}
+.herominib {
+  position: absolute;
+  left: 390px;
+}
+.hero2minib {
+  position: absolute;
+  left: 1420px;
+}
+.hero3minib {
+  position: absolute;
+  left: 900px;
+}
+.herobtn:hover {
+  background-color: rgb(53, 26, 103);
+}
+.hero2btn:hover {
+  background-color: rgb(53, 26, 103);
+}
+.hero3btn:hover {
+  background-color: rgb(53, 26, 103);
+}
+.herobtn {
+  background-color: rgb(248, 127, 27);
+  border-radius: 30px;
+  width: 200px;
+  height: 55px;
+  color: white;
+  font-size: 25px;
+  border: none;
+}
+.herobtnmini {
+  position: absolute;
+  top: 400px;
+  left: 130px;
+}
+.hero2btnmini {
+  position: absolute;
+  top: 400px;
+  left: 650px;
+}
+.hero3btnmini {
+  position: absolute;
+  top: 400px;
+  left: 1180px;
+}
+
+.info__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+.bk__info {
+  margin: 100px 0 0 0;
+  background-color: rgb(248, 230, 209);
+  height: 630px;
+}
+.infokard {
+  width: 710px;
+  height: 100px;
+}
+.imginf {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  background-color: rgb(62, 20, 102);
+  margin: 10px 0 0 150px;
+}
+.miniinf {
+  position: absolute;
+  top: 325px;
+  left: 900px;
+}
+.mini2inf {
+  position: absolute;
+  top: 445px;
+  left: 900px;
+}
+.h1_info {
+  margin: 10px 0 10px 150px;
+}
+.fine__wrapper {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  margin: 300px 0 0 0;
+  position: relative;
+}
+.finetitle {
+  position: absolute;
+  top: -150px;
+}
+.mini0inf {
+  position: absolute;
+  top: -50px;
+  left: 30px;
+}
+.finebox {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.finekard {
+  background-color: rgb(244, 247, 249);
+  width: 415px;
+  height: 260px;
+  padding: 30px;
+  box-shadow: 1px 1px 5px 1px rgb(99, 98, 98);
+  border-radius: 5px;
+}
+.imgfine {
+  position: absolute;
+  top: 200px;
+}
+.miniinffi {
+  position: absolute;
+  top: 210px;
+  left: 270px;
+}
+.mini2inffi {
+  position: absolute;
+  top: 210px;
+  left: 740px;
+}
+.mini3inffi {
+  position: absolute;
+  top: 210px;
+  left: 1200px;
+}
+.imgfinee {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+.img2finee {
+  position: absolute;
+  top: 300px;
+}
+.img3finee {
+  position: absolute;
+  top: 350px;
+  left: 1500px;
+}
+.win__wrapper {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: 200px 0 0 0;
+}
+.karder_win {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 50px 0 0 0;
+  position: relative;
+}
+.win__kard {
+  width: 490px;
+  height: 430px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 5px 1px rgb(134, 134, 134);
+  padding: 15px;
+  border-radius: 30px;
+}
+.wintitle {
+  position: absolute;
+  top: -50px;
+}
+.miniwinh {
+  position: absolute;
+  top: -40px;
+  left: 90px;
+}
+.win_imgmini {
+  position: absolute;
+  top: 85%;
+  left: 26%;
+}
+.win2_imgmini {
+  position: absolute;
+  top: 85%;
+  left: 60%;
+}
+.win3_imgmini {
+  position: absolute;
+  top: 85%;
+  left: 93%;
+}
+.imgimt {
+  position: absolute;
+  top: 430%;
+  left: 0px;
+}
+.inp__win {
+  position: relative;
+  top: 500px;
+  left: -1000px;
+}
+.inpp__wrapper {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+.inpd__inpp {
+  position: absolute;
+  left: 150px;
+  top: 200px;
+}
+.inp__inpp {
+  position: absolute;
+  width: 610px;
+  height: 50px;
+  border-radius: 300px;
+  border: none;
+  left: 370px;
+  top: 250px;
+  font-size: 20px;
+  padding: 50px;
+}
+.btn__impp {
+  width: 195px;
+  height: 75px;
+  background-color: rgb(234, 95, 15);
+  border-radius: 100px;
+  border: none;
+  position: absolute;
+  left: 760px;
+  top: 265px;
+  font-size: 20px;
+
+  color: aliceblue;
+}
+.btn__impp:hover {
+  background-color: rgb(65, 14, 113);
+}
+.title_inpp {
+  position: absolute;
+  top: 200px;
+  left: 450px;
+}
+.h1__inpp {
+  position: absolute;
+  top: -70px;
+  left: -20px;
+  width: 500px;
+}
+.img__inplog {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 900px;
+  margin: 0 0 0 100px;
+  position: absolute;
+  top: 250px;
+}
+.foot__wrapper {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 100px;
+  padding: 50px;
+  position: relative;
+}
+.bkcol_fut {
+  background-color: rgb(249, 234, 214);
+  margin: 900px 0 0 0;
+  height: 410px;
+}
+li {
+  margin: 20px 0;
+}
+.minih1fut {
+  position: absolute;
+  top: 70px;
+  left: 300px;
+}
+.fut__foot {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+ul li:hover {
+  color: rgb(225, 82, 16);
+}
+
